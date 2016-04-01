@@ -1,2 +1,2 @@
 <hr>
-<h6 class="text-center">Power by shicai88.</h6>
+<h6 class="text-center">Power by wengebin.</h6>

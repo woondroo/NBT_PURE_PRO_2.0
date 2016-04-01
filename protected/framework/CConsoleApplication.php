@@ -2,7 +2,7 @@
 /**
  * CConsoleApplication class file.
  *
- * @author shicai88
+ * @author wengebin
  * @package framework
  * @date 2010-08-12
  */

@@ -16,7 +16,7 @@ define( 'NBT_BEGIN_TIME' , time() );
 define( 'NBT_BEGIN_MICROTIME' , microtime(true) );
 
 //主域名设置
-define( 'MAIN_DOMAIN' , 'http://www.shicai88.com.tw' );
+define( 'MAIN_DOMAIN' , 'http://www.wengebin.com.tw' );
 
 //是否开启地址重写
 define( 'REWRITE_MODE' , true );
@@ -37,4 +37,4 @@ define( 'CACHE_STATUS' , false );
 define( 'MONGO_CONNECT_PROTOCAL' , 'mongodb://' );
 define( 'MONGO_CONNECT_ADD' , '127.0.0.1' );
 define( 'MONGO_CONNECT_PORT' , '27017' );
-define( 'MONGO_DEFAULT_DB_NAME' , 'shicai88' );
+define( 'MONGO_DEFAULT_DB_NAME' , 'wengebin' );
