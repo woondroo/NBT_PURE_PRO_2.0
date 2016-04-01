@@ -3,7 +3,8 @@ Pure front site source code.
 
 ### Description
 
-1. 代码部分，你可以先阅读附件中的框架代码，这是一个基础的框架，可以直接配置nginx进行测试，nginx配置如下：
+* 代码部分，你可以先阅读附件中的框架代码，这是一个基础的框架，可以直接配置nginx进行测试，nginx配置如下：
+```
 server{
 	listen 80;
 	server_name www.puretest.com;
@@ -36,10 +37,12 @@ server{
 
 	access_log off;
 }
+```
 
 将项目直接解压访问配置的地址就能运行起来。
 
-2. 框架大体目录结构如下：
+* 框架大体目录结构如下：
+```
 ├── api.php (执行定时脚本/后台脚本时的入口文件，已经屏蔽web访问)
 	├── css
 	├── fonts
@@ -55,3 +58,4 @@ server{
 	│   └── views (视图层)
 	└── shell
 	    └── test.sh (可执行脚本文件)
+```
